@@ -2,17 +2,6 @@
    
 }
 
-/*linha sobre a segunda barra de navegação*/
-.nav1::before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 8px;
-    background-color: #0b5ed7;
-    left: 0;
-    top: 82px;
-}
 
 .form-2 {
     width: 400px;
