@@ -1,0 +1,86 @@
+
+/*perguntas frenquentes*/
+.perg-fre {
+    margin-top: 90px;
+}
+.perg-fre>h2 {
+    margin-bottom: 20px;
+}
+
+
+/*FORMULÁRIO*/
+
+.div-form1 {
+    background-color: #0b5dd73f;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.contato1 {
+    margin-top: 0px;
+}
+
+.my-4 {
+    margin-top: 10px !important;
+}
+
+.env-duv {
+    margin-left: calc(75% - 255px);
+    width: 255px;
+}
+.env-duv>h5 {
+    text-align: center;
+    background-color: #0b5dd748;
+    border-radius: 5px;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-name: slidein;
+    animation-direction: alternate;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 0%;
+    }
+    to {
+        margin-left: 10%;
+    }
+}
+
+.bt-form {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #032973;
+    color: #FFBC42;
+    text-decoration: none;
+    border: 0;
+    font-weight: 500;
+    font-size: 1.1em;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.bt-form:hover {
+    background-color: #0b5ed7;
+    color: #FFBC42;
+}
+
+.bt-form-reset {
+    padding: 4px 10px;
+}
+
+.div-bt-enviar {
+    padding: 0px;
+}
+.bt-v-l {
+    margin-right: calc(100% - 170px);
+}
+.bt-enviar {
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: calc(100% - 180px);
+}
+
+label {
+    color: #032973;
+}

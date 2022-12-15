@@ -1,0 +1,23 @@
+.div-form {
+   
+}
+
+.form-2 {
+    width: 400px;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #0b5dd73f;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form-2>h3 {
+    text-align: center;
+}
+
+.bt-enviar2 {
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: calc(100% - 120px);
+}
